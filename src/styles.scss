@@ -1,0 +1,10 @@
+@use 'themes' as *;
+@use '@nebular/theme/styles/globals' as *;
+@import '~@nebular/theme/styles/prebuilt/corporate';
+@import '~@nebular/auth/styles/all';
+@include nb-install() {
+  @include nb-theme-global();
+  @include nb-auth-global();
+};
+/* You can add global styles to this file, and also import other style files */
+@import "~normalize.css/normalize.css"
