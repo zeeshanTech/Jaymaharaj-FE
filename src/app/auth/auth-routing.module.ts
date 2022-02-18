@@ -34,12 +34,6 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-<<<<<<< HEAD
   exports: [RouterModule]
 })
 export class AuthRoutingModule { }
-=======
-  exports: [RouterModule],
-})
-export class AuthRoutingModule {}
->>>>>>> 19e35ccab8a5b6b2908b023e62d37af590e605a0
